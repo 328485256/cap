@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.27.0.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: klt klt660531@outlook.com, 11, LIC=D0DX7-E9Y64-2LZCT-RHXRJ-CGL9N-E87A2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.27.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.0.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\klt66\Desktop\stm32\dac\dac\MDK-ARM\dac.uvprojx
+Project File Date:  04/30/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'dac'
+compiling EXTI_Callback.c...
+HARDWARE\EXTI_Callback\EXTI_Callback.h(5): warning:  #1295-D: Deprecated declaration EXTI_CALLBACK_key1 - give arg types
+  void EXTI_CALLBACK_key1();
+HARDWARE\EXTI_Callback\EXTI_Callback.h(6): warning:  #1295-D: Deprecated declaration EXTI_CALLBACK_key2 - give arg types
+  void EXTI_CALLBACK_key2();
+HARDWARE\EXTI_Callback\EXTI_Callback.h(7): warning:  #1295-D: Deprecated declaration EXTI_CALLBACK_key3 - give arg types
+  void EXTI_CALLBACK_key3();
+HARDWARE\EXTI_Callback\EXTI_Callback.h(8): warning:  #1295-D: Deprecated declaration EXTI_CALLBACK_key4 - give arg types
+  void EXTI_CALLBACK_key4();
+../Inc/main.h(59): warning:  #1295-D: Deprecated declaration usart_feedback - give arg types
+  void usart_feedback();//串口接收后反馈信号的函数，可以控制显示内容，显示波形pc发送：waveform，显示数据pc发送：date，清空显示pc发送：clear
+../Inc/main.h(60): warning:  #1295-D: Deprecated declaration Control_Program - give arg types
+  void Control_Program();//主程序，放在定时器里跑让执行周期确定。
+.\HARDWARE\Data_Processing\Data_Processing.h(33): warning:  #1-D: last line of file ends without a newline
+  #endif
+HARDWARE\EXTI_Callback\EXTI_Callback.c(35): warning:  #177-D: variable "i"  was declared but never referenced
+  	static int i=0;
+HARDWARE\EXTI_Callback\EXTI_Callback.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=39588 RO-data=6672 RW-data=40260 ZI-data=4636  
+FromELF: creating hex file...
+"dac\dac.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_dac
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
